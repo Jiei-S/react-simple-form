@@ -6,7 +6,20 @@ Use custom hook to manage the form state. Re-rendering only the changed part of 
 
 https://github.com/Jiei-S/react-simple-form/assets/55335212/98711cb9-f5fb-4e58-ba27-269e8995e131
 
+## Directory structure
 
+```bash
+.
+├── _app.tsx
+├── components
+│   ├── index.tsx
+│   ├── select.tsx
+│   └── text.tsx
+├── hooks
+│   ├── form.ts # Custom hook to manage the form
+│   └── store.ts
+└── main.tsx
+```
 
 # How to setup
 
